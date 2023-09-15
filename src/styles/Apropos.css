@@ -1,0 +1,45 @@
+.apropos-description span {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.apropos-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.apropos-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6060;
+  height: 52px;
+
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.apropos-container {
+  background-color: #f6f6f6;
+  width: 70%;
+}
+.apropos-container p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff6060;
+  margin-left: 15px;
+  max-width: 95%;
+}
+
+.apropos-description img {
+  width: 24px;
+  height: 18px;
+}

@@ -1,0 +1,27 @@
+.banner {
+  position: relative;
+}
+
+.img-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 223px;
+  width: 90%;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 45px;
+  filter: brightness(0.7);
+}
+
+.text-banner {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  left: 450px;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  font-size: 48px;
+}
