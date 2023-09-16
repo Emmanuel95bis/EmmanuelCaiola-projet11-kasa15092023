@@ -32,3 +32,22 @@
 a:hover {
   text-decoration: underline;
 }
+
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+
+@media (732px > width) {
+  .header-nav a {
+    color: #ff6060;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0px;
+  }
+
+  .header img {
+    width: 145px;
+    height: 47px;
+  }
+}

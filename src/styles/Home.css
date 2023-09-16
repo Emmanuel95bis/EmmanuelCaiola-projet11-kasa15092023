@@ -49,3 +49,13 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+
+@media (732px <= width) {
+  .home {
+    width: 96%;
+  }
+}

@@ -8,9 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 30px;
+  gap: 40px;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .apropos-description {
@@ -42,4 +41,56 @@
 .apropos-description img {
   width: 24px;
   height: 18px;
+}
+
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+
+@media (732px > width) {
+  .apropos-container {
+    width: 90%;
+  }
+
+  .apropos-container p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ff6060;
+    margin-left: 15px;
+    max-width: 95%;
+  }
+
+  .apropos-description span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .apropos-description img {
+    width: 16px;
+    height: 9px;
+  }
+
+  .apropos-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    padding-top: 30px;
+  }
+
+  .apropos-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6060;
+    height: 32px;
+
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

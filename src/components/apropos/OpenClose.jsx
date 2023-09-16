@@ -3,10 +3,10 @@ import chevronBas from "../../assets/chevronBas.png";
 
 function OpenClose(numOpen, isOpen, setIsOpen) {
   const laius = [
-    "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes au logements et toutes les informations sont régulièremet vérifiées par nos équipes",
-    "La bienvaillance fait partie des valeurs fondtrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
-    "La bienvaillance fait partie des valeurs fondtrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
-    " La sécurité est la priorité de Kasa. Aussi bien que nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers domestiques pour nos hôtes.",
+    "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes au logements et toutes les informations sont régulièrement vérifiées par nos équipes",
+    "La bienvaillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+    "La bienvaillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+    "La sécurité est la priorité de Kasa. Aussi bien que nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers domestiques pour nos hôtes.",
   ];
   const titleTop = ["Fiabilité", "Respect", "Service", "Sécurité"];
 

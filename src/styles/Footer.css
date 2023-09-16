@@ -19,3 +19,16 @@
   width: 122px;
   height: 40px;
 }
+
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+/****************** adaptation pour mobile ******************/
+
+@media (732px > width) {
+  .footer-text {
+    width: 120px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+  }
+}

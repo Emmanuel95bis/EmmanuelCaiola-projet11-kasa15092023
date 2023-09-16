@@ -12,7 +12,9 @@ function Banner(props) {
         <img src={KasaImage2} alt="Banner Montagne" className="img-banner" />
       )}
 
-      <div className="text-banner">Chez vous, partout et ailleurs</div>
+      {props.SelectImage === "image1" ? (
+        <div className="text-banner">Chez vous, partout et ailleurs</div>
+      ) : null}
     </div>
   );
 }
