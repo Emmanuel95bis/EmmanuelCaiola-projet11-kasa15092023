@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { redirect } from "react-router-dom";
 import "../../styles/Fiche.css";
 import Header from "../Header";
 import logements from "../../data/logements.json";
