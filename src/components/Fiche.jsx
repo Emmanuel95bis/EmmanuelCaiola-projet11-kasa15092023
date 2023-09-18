@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { redirect } from "react-router-dom";
 import "../styles/Fiche.css";
 import Header from "./Header";
 import logements from "../data/logements.json";
 import Footer from "./Footer";
 import Tags from "./fiche/Tags";
 import Rating from "./fiche/Rating";
+import Error from "./Error";
 import chevronDroit from "../assets/chevronDroit.png";
 import chevronGauche from "../assets/chevronGauche.png";
 import { useParams } from "react-router-dom";
@@ -16,9 +18,13 @@ function Fiche() {
   const { ident } = useParams();
 
   const selectedLogement = logements.find((logement) => logement.id === ident);
-  const selectedPictures = selectedLogement ? selectedLogement.pictures : [];
 
   const [position, setPosition] = useState(0);
+  if (selectedLogement === undefined) {
+    return <Error />;
+  }
+
+  const selectedPictures = selectedLogement ? selectedLogement.pictures : [];
 
   const nameFirstName = selectedLogement.host.name.split(" ");
 
