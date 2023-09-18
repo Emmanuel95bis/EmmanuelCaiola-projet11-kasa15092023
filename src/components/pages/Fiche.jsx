@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { redirect } from "react-router-dom";
-import "../styles/Fiche.css";
-import Header from "./Header";
-import logements from "../data/logements.json";
-import Footer from "./Footer";
-import Tags from "./fiche/Tags";
-import Rating from "./fiche/Rating";
+import "../../styles/Fiche.css";
+import Header from "../Header";
+import logements from "../../data/logements.json";
+import Footer from "../Footer";
+import Tags from "../fiche/Tags";
+import Rating from "../fiche/Rating";
 import Error from "./Error";
-import chevronDroit from "../assets/chevronDroit.png";
-import chevronGauche from "../assets/chevronGauche.png";
+import chevronDroit from "../../assets/chevronDroit.png";
+import chevronGauche from "../../assets/chevronGauche.png";
 import { useParams } from "react-router-dom";
-import OpenClose from "./fiche/OpenClose";
+import OpenClose from "../fiche/OpenClose";
 
 function Fiche() {
   const [isOpen5, setIsOpen5] = useState(false);

@@ -1,5 +1,5 @@
-import "../styles/Error.css";
-import Header from "./Header";
+import "../../styles/Error.css";
+import Header from "../Header";
 import { Link } from "react-router-dom";
 
 function Error() {

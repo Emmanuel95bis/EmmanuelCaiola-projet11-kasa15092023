@@ -1,10 +1,10 @@
-import "../styles/Apropos.css";
+import "../../styles/Apropos.css";
 
-import Header from "./Header";
-import Banner from "./Banner";
-import Footer from "./Footer";
+import Header from "../Header";
+import Banner from "../Banner";
+import Footer from "../Footer";
 import { useState } from "react";
-import OpenClose from "./apropos/OpenClose";
+import OpenClose from "../apropos/OpenClose";
 
 function Apropos() {
   const [isOpen, setIsOpen] = useState(false);
