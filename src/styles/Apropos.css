@@ -10,6 +10,7 @@
   justify-content: space-around;
   gap: 40px;
   padding-top: 40px;
+  margin-bottom: 50px;
 }
 
 .apropos-description {
@@ -50,6 +51,7 @@
 @media (732px > width) {
   .apropos-container {
     width: 90%;
+    margin-bottom: 30px;
   }
 
   .apropos-container p {
@@ -76,8 +78,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 25px;
+    gap: 0px;
     padding-top: 30px;
+    margin-bottom: 30px;
   }
 
   .apropos-description {

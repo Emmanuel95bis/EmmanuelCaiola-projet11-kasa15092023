@@ -22,9 +22,8 @@ function Apropos() {
         {OpenClose(1, isOpen2, setIsOpen2)}
         {OpenClose(2, isOpen3, setIsOpen3)}
         {OpenClose(3, isOpen4, setIsOpen4)}
-
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
