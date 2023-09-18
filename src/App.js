@@ -1,10 +1,10 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./components/pages/Home";
-import Error from "./components/pages/Error";
-import Fiche from "./components/pages/Fiche";
-import Apropos from "./components/pages/Apropos";
+import Home from "./pages/Home";
+import Error from "./pages/Error";
+import Fiche from "./pages/Fiche";
+import Apropos from "./pages/Apropos";
 
 function App() {
   return (

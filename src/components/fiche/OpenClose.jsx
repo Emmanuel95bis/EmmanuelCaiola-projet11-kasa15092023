@@ -4,10 +4,6 @@ import chevronBas from "../../assets/chevronBas.png";
 function OpenClose(numOpen, selectedLogement, isOpen, setIsOpen) {
   const titleTop = ["Description", "Équipements"];
 
-  console.log("xxxxxxx");
-  console.log(titleTop[numOpen]);
-
-  console.log("xxxxxx0000000000x");
   return isOpen ? (
     <div className={numOpen === 1 ? "fiche-equipements" : "fiche-description"}>
       <div className="fiche-description-title">
