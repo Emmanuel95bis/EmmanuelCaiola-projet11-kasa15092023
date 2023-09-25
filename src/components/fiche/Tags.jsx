@@ -1,7 +1,5 @@
 function Tags(props) {
-  console.log(props.tags);
   const TheTags = props.tags;
-  console.log(TheTags);
 
   return (
     <div className="fiche-tags">

@@ -3,7 +3,6 @@ import KasaImage1 from "../assets/Kasaimage1.jpg";
 import KasaImage2 from "../assets/Kasaimage2.jpg";
 
 function Banner(props) {
-  console.log(props);
   return (
     <div className="banner">
       {props.SelectImage === "image1" ? (
